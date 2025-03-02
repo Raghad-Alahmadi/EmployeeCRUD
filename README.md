@@ -63,9 +63,3 @@ EmployeeCRUD is a Razor Pages project built with .NET 8.0. It provides a simple 
 5. Push to the branch (`git push origin feature-branch`).
 6. Create a new Pull Request.
 
-## License
-
-This project is licensed under the MIT License.
-
-
-    
