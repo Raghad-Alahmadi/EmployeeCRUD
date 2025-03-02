@@ -13,7 +13,7 @@ EmployeeCRUD is a Razor Pages project built with .NET 8.0. It provides a simple 
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/yourusername/EmployeeCRUD.git
+    git clone https://github.com/Raghad-Alahmadi/EmployeeCRUD.git
     cd EmployeeCRUD
 
 
