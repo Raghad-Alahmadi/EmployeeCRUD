@@ -27,6 +27,12 @@ EmployeeCRUD is a Razor Pages project built with .NET 8.0. It provides a simple 
 
     - In Visual Studio, go to `Tools` > `NuGet Package Manager` > `Package Manager Console`.
     - Run the following command to restore the required packages:
+      ```bash
+        Install-Package Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore -Version 8.0.0
+        Install-Package Microsoft.AspNetCore.Identity.EntityFrameworkCore -Version 8.0.0
+        Install-Package Microsoft.EntityFrameworkCore.SqlServer -Version 8.0.0
+        Install-Package Microsoft.EntityFrameworkCore.Tools -Version 8.0.0
+
 
 
 4. **Build the project:**
