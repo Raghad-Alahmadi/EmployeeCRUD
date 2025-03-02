@@ -1,0 +1,31 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center bg-primary text-white p-5 mb-4 rounded">
+    <h1 class="display-4">Welcome to Employee Management System</h1>
+    <p class="lead">Manage your employees efficiently and effectively.</p>
+    <p>
+        <a class="btn btn-light btn-lg" asp-controller="Employee" asp-action="Index">View Employee List</a>
+    </p>
+</div>
+
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-md-4">
+            <h2>Features</h2>
+            <ul>
+                <li>View Employee List</li>
+                <li>Add New Employees</li>
+                <li>Edit Employee Details</li>
+                <li>Delete Employees</li>
+            </ul>
+        </div>
+        <div class="col-md-4">
+            <h2>About Us</h2>
+            <p>Our Employee Management System helps you keep track of your employees' information, including their positions and salaries. It's designed to be simple and easy to use, so you can focus on what matters most - managing your team.</p>
+        </div>
+    </div>
+</div>
+
+
